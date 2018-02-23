@@ -1,7 +1,7 @@
-What is ServerGroveLiveChat?
+What is this app?
 ----------------------------
 
-ServerGroveLiveChat is a PHP 5.3 Symfony 2 application that allows website visitors to engage in a web-based chat
+This Chat is a PHP 5.3 Symfony 2 application that allows website visitors to engage in a web-based chat
 with operators of a website. It allows a company to offer live chat support.
 
 Requirements
@@ -20,11 +20,11 @@ Installation
 2. Setup a virtual host (optional) and restart web server
 
     <VirtualHost *:80>
-        DocumentRoot /usr/local/ServerGroveLiveChat/web
+        DocumentRoot /usr/local/LiveChat/web
         ServerName livechat.example.com
         ErrorLog "logs/livechat-error_log"
         CustomLog "logs/livechat-access_log" combined
-        <Directory /usr/local/ServerGroveLiveChat/web>
+        <Directory /usr/local/LiveChat/web>
             AllowOverride All
         </Directory>
     </VirtualHost>
