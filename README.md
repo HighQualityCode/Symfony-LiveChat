@@ -15,7 +15,7 @@ Requirements
 Installation
 ------------
 
-1. Download application package or [clone the repository](https://github.com/servergrove/ServerGroveLiveChat)
+1. Download application package or [clone the repository](https://github.com/HighQualityCode/Symfony-LiveChat)
 
 2. Setup a virtual host (optional) and restart web server
 
